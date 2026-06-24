@@ -97,11 +97,13 @@ http://127.0.0.1:8000
 ## Screenshot Aplikasi
 
 * Dashboard Admin
-* <img width="952" height="438" alt="Screenshot 2026-06-24 184700" src="https://github.com/user-attachments/assets/4f347747-1d86-4c86-ba26-9e4a7e0c4cee" />
+ <img width="952" height="438" alt="Screenshot 2026-06-24 184700" src="https://github.com/user-attachments/assets/4f347747-1d86-4c86-ba26-9e4a7e0c4cee" />
 * Halaman Daftar Konser
 * Detail Konser
 * Form Pemesanan Tiket
-* Tiket PDF
+* Tiket
+  <img width="929" height="440" alt="image" src="https://github.com/user-attachments/assets/c5b6ae90-805c-4e47-8153-abb3a10af925" />
+
 
 
 ## Author
