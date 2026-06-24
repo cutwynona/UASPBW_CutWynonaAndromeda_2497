@@ -1,7 +1,5 @@
 # 🎵 StagePass — Sistem Pemesanan Tiket Konser
 
-# StagePass
-
 Website pemesanan tiket konser berbasis Laravel yang memungkinkan pengguna membeli tiket konser secara online serta admin mengelola konser dan pesanan melalui dashboard khusus.
 
 ## Deskripsi Proyek
