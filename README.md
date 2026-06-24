@@ -10,7 +10,7 @@ StagePass merupakan aplikasi web yang dikembangkan menggunakan framework Laravel
 
 Sistem menyediakan fitur pencarian konser, pemesanan tiket online, pengelolaan pesanan, serta dashboard admin untuk mengelola data konser, pengguna, dan transaksi.
 
-Proyek ini dibuat sebagai tugas Ujian Akhir Semester Praktikum Pemrograman Berbasis Web (PBW).
+Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (PBW).
 
 ---
 
@@ -118,4 +118,4 @@ http://127.0.0.1:8000
 
 Cut Wynona Andromeda
 
-UAS Praktikum Pemrograman Berbasis Web (PBW)
+UAS Pemrograman Berbasis Web (PBW)
