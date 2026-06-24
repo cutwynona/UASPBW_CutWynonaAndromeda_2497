@@ -1,47 +1,121 @@
 # 🎵 StagePass — Sistem Pemesanan Tiket Konser
 
-## Akun Demo
-| Role     | Email                    | Password  |
-|----------|--------------------------|-----------|
-| Admin    | admin@stagepass.com      | admin123  |
-| Customer | user@stagepass.com       | user123   |
+# StagePass
 
-## Setup (sama seperti BrewHouse)
+Website pemesanan tiket konser berbasis Laravel yang memungkinkan pengguna membeli tiket konser secara online serta admin mengelola konser dan pesanan melalui dashboard khusus.
+
+## Deskripsi Proyek
+
+StagePass merupakan aplikasi web yang dikembangkan menggunakan framework Laravel dengan arsitektur MVC (Model-View-Controller).
+
+Sistem menyediakan fitur pencarian konser, pemesanan tiket online, pengelolaan pesanan, serta dashboard admin untuk mengelola data konser, pengguna, dan transaksi.
+
+Proyek ini dibuat sebagai tugas Ujian Akhir Semester Praktikum Pemrograman Berbasis Web (PBW).
+
+---
+
+## Fitur Utama
+
+### Customer
+
+* Melihat daftar konser
+* Mencari konser berdasarkan nama artis atau konser
+* Filter konser berdasarkan genre
+* Melihat detail konser
+* Membeli tiket konser
+* Mengisi data diri pemesan
+* Memilih metode pembayaran
+* Melihat tiket yang telah dibeli
+* Mengunduh tiket dalam format PDF
+
+### Admin
+
+* Dashboard statistik
+* Melihat total konser, pesanan, pendapatan, dan pengguna
+* Manajemen konser (Create, Read, Update, Delete)
+* Manajemen pesanan
+* Manajemen pengguna
+
+---
+
+## Database
+
+### Entitas Utama
+
+* Users
+* Concerts
+* Orders
+
+### Relasi
+
+* User dapat memiliki banyak Order
+* Concert dapat memiliki banyak Order
+* Setiap Order terhubung dengan satu User dan satu Concert
+
+---
+
+## Akun Demo
+
+### Admin
+
+- Email: admin@stagepass.com
+- Password: admin123
+
+### Customer
+
+- Registrasi akun melalui halaman Register
+- Login menggunakan akun yang telah dibuat
+---
+
+## Teknologi yang Digunakan
+
+* Laravel
+* PHP
+* MySQL
+* Bootstrap
+* Blade Template Engine
+
+---
+
+## Cara Menjalankan Project
+
+1. Clone repository
 
 ```bash
-# 1. Buat project Laravel baru
-composer create-project laravel/laravel StagePass
-cd StagePass
+git clone https://github.com/cutwynona/UASPBW_CutWynonaAndromeda_2497.git
+```
 
-# 2. Copy semua file dari ZIP ini ke project
+2. Buka project menggunakan Visual Studio Code
 
-# 3. Edit bootstrap/app.php — tambahkan middleware alias:
-# $middleware->alias(['is_admin' => \App\Http\Middleware\IsAdmin::class]);
+3. Buka Terminal pada folder project
 
-# 4. Edit .env
-# DB_CONNECTION=mysql
-# DB_DATABASE=stagepass
-# DB_USERNAME=root
-# DB_PASSWORD=
+4. Jalankan server Laravel
 
-# 5. Buat database 'stagepass' di phpMyAdmin
-
-# 6. Jalankan
-php artisan migrate:fresh --seed
+```bash
 php artisan serve
 ```
 
-## Fitur
-- ✅ Login & Register (customer/admin)
-- ✅ Lihat daftar konser dengan filter & search
-- ✅ Detail konser + beli tiket
-- ✅ E-Ticket dengan kode unik
-- ✅ Riwayat tiket & batalkan tiket
-- ✅ Admin: CRUD konser, kelola pesanan & user
-- ✅ Validasi input di semua form
-- ✅ Relasi tabel: users → orders → concerts
+5. Buka browser dan akses
 
-## Relasi Database
+```bash
+http://127.0.0.1:8000
 ```
-users ──< orders >── concerts
-```
+
+---
+
+## Screenshot Aplikasi
+
+* Dashboard Admin
+* <img width="952" height="438" alt="Screenshot 2026-06-24 184700" src="https://github.com/user-attachments/assets/4f347747-1d86-4c86-ba26-9e4a7e0c4cee" />
+* Halaman Daftar Konser
+* Detail Konser
+* Form Pemesanan Tiket
+* Tiket PDF
+
+---
+
+## Author
+
+Cut Wynona Andromeda
+
+UAS Praktikum Pemrograman Berbasis Web (PBW)
