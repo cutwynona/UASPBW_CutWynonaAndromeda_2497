@@ -12,7 +12,6 @@ Sistem menyediakan fitur pencarian konser, pemesanan tiket online, pengelolaan p
 
 Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (PBW).
 
----
 
 ## Fitur Utama
 
@@ -36,8 +35,6 @@ Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (P
 * Manajemen pesanan
 * Manajemen pengguna
 
----
-
 ## Database
 
 ### Entitas Utama
@@ -52,7 +49,6 @@ Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (P
 * Concert dapat memiliki banyak Order
 * Setiap Order terhubung dengan satu User dan satu Concert
 
----
 
 ## Akun Demo
 
@@ -65,7 +61,6 @@ Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (P
 
 - Registrasi akun melalui halaman Register
 - Login menggunakan akun yang telah dibuat
----
 
 ## Teknologi yang Digunakan
 
@@ -75,7 +70,6 @@ Proyek ini dibuat sebagai tugas Ujian Akhir Semester Pemrograman Berbasis Web (P
 * Bootstrap
 * Blade Template Engine
 
----
 
 ## Cara Menjalankan Project
 
@@ -101,7 +95,6 @@ php artisan serve
 http://127.0.0.1:8000
 ```
 
----
 
 ## Screenshot Aplikasi
 
@@ -112,7 +105,6 @@ http://127.0.0.1:8000
 * Form Pemesanan Tiket
 * Tiket PDF
 
----
 
 ## Author
 
