@@ -100,8 +100,13 @@ http://127.0.0.1:8000
  <img width="952" height="438" alt="Screenshot 2026-06-24 184700" src="https://github.com/user-attachments/assets/4f347747-1d86-4c86-ba26-9e4a7e0c4cee" />
  
 * Halaman Daftar Konser
+  <img width="935" height="434" alt="image" src="https://github.com/user-attachments/assets/80d7c39c-1bd6-498d-bd9b-5552fe954668" />
+
 * Detail Konser
+  <img width="947" height="440" alt="image" src="https://github.com/user-attachments/assets/468a612b-99cb-46f3-b5d0-ffb2257f31b7" />
+
 * Form Pemesanan Tiket
+  <img width="932" height="442" alt="image" src="https://github.com/user-attachments/assets/ef8a4c78-1e07-462b-b3ae-fc34180320f0" />
   
 * Tiket
   
